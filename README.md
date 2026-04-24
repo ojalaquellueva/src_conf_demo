@@ -1,4 +1,4 @@
-# Demo VQA external project-specific scripts directory
+# VQA external confidential scripts directory demo
 
 ## Introduction
 
