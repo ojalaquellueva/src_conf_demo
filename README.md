@@ -1,10 +1,12 @@
-# VQA external confidential scripts directory demo
+# VQA confidential scripts directory demo
 
 ## Introduction
 
-This repository a demo of a confidential source code repository used to keep custom, client-specific project and parameter scripts confidential by keeping them outside the main (public) VQA source code directory. As a demo, this repository is public. However, for a real world VQA application, this repository would be private, and you would main multiple private confidential source code repositor——one for each distinct client or projects. Note, however, that you can keep scripts from muliple projects belonging to the same owner or client in the same repository.
+This repository is a demo of an external confidential source code repository used to keep custom, client-specific project and parameter scripts confidential by keeping them outside the main (public) VQA source code directory. Although this repository is public, other repositories of project-specific scripts would be private. Ideally you would maintain several, one for each client. You can keep scripts for different projects in the same repository, as long as they belong to the same owner.
 
-This confidential source code repository contains a params.pa.R file, two project-specific parameters files (in subdirectory `params/`) and two project-specific import files (in subdirectory `imports/`). These customs scripts are for the two VQA demos `vqa-demo1` and `vqa-demo2`. You will find the raw data for these demos inside directory `data/vqa-demo1/raw/` and 'data/vqa-demo2/raw/` in the demo `data/` directory in the main code repo. For an actual VQA application, you would keep your date in a separate external data directory *outside* the main code repo directory, and reset data directory path parameters to point to the new location. Ideally, you would also keep all you project-specific scripts outside the main repo, in one or more confidential source code repositories like this one.
+This demo confidential source code repository contains a params.pa.R file, two project-specific parameters files (in subdirectory `params/`) and two project-specific import files (in subdirectory `imports/`). The scripts are for two VQA demos: `vqa-demo1` and `vqa-demo2`. 
+
+You will find raw data for these demos inside directory `data/vqa-demo1/raw/` and 'data/vqa-demo2/raw/` in the demo `data/` directory of the main code repo. For an actual VQA application, you would also keep your data in a separate external data directory *outside* the main code repo directory, and reset data directory path parameters to point to the new location. 
 
 ## Installation & setup
 
