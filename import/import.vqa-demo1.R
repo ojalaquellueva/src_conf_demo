@@ -1,3 +1,9 @@
+##################################################
+# Copyright (c) 2026 Bradley Lorne Boyle (https://github.com/ojalaquellueva)
+# Distributed under the terms of the MIT License.
+# See the LICENSE file in the project root for full license information.
+##################################################
+
 ################################################
 # Import VQA Demo #2 raw data
 #

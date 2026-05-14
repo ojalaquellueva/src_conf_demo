@@ -1,7 +1,13 @@
 ##################################################
+# Copyright (c) 2026 Bradley Lorne Boyle (https://github.com/ojalaquellueva)
+# Distributed under the terms of the MIT License.
+# See the LICENSE file in the project root for full license information.
 ##################################################
-# Teck DPm Mine Test Offset Assessment
-# (Resolute Averted Loss offset)
+
+##################################################
+##################################################
+# Test Offset Assessment
+# (Averted Loss offset)
 #
 # Version: 2026-03-09-02 
 # DB version: 2025-02-27
